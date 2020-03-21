@@ -6,7 +6,7 @@ class Stack:
         pass
 
     def pop(self):
-        pass
+        return self._data.pop(-1)
 
     def top(self):
         pass
