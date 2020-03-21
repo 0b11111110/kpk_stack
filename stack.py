@@ -12,7 +12,7 @@ class Stack:
         pass
 
     def empty(self):
-        pass
+        return not self._data
 
 
 if __name__ == '__main__':
