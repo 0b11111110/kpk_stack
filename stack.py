@@ -9,7 +9,9 @@ class Stack:
         pass
 
     def top(self):
-        pass
+        if self.empty():
+            return None
+        return self._data[-1]
 
     def empty(self):
         pass
