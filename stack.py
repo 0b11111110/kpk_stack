@@ -14,7 +14,7 @@ class Stack:
         return self._data[-1]
 
     def empty(self):
-        pass
+        return not self._data
 
 
 if __name__ == '__main__':
