@@ -1,14 +1,19 @@
-class stack:
-    def __init__():
-        return []
-    def push():
+class Stack:
+    def __init__(self):
+        self._data = []
+
+    def push(self):
         pass
-    def pop():
+
+    def pop(self):
         pass
-    def top():
+
+    def top(self):
         pass
-    def empty():
+
+    def empty(self):
         pass
+
 
 if __name__ == '__main__':
     pass
